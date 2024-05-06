@@ -1,0 +1,16 @@
+/* CoursStatsPage.css */
+
+.cours-stats-container {
+  margin: 60px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.statuts-enseignants-container {
+  margin-bottom: 60px;
+}
+
+.chart-container {
+  height: 400px; /* Hauteur du conteneur du graphique */
+}

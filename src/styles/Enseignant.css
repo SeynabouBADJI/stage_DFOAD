@@ -1,0 +1,82 @@
+.enseignant-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enseignant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.enseignant-title {
+  font-size: 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 10px 10px 10px rgba(21, 193, 12, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.data-grid-container {
+  width: 100%;
+}
+
+.data-grid {
+  overflow-x: hidden !important;
+}
+
+.column-header {
+  font-size: 16px;
+}
+
+.icon-button {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #25a20c;
+}
+
+.icon-button:hover {
+  color: #25a20c;
+}
+/* Modifier la couleur de l'icône Edit en vert */
+.edit-icon {
+  color: green !important;
+}
+
+/* Modifier la couleur de l'icône Delete en rouge */
+.delete-icon {
+  color: red !important;
+}
+

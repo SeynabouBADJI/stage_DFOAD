@@ -1,0 +1,519 @@
+{
+  "enseignants": [
+    {
+      "matricule": "ENS001",
+      "nom": "Dupont",
+      "prenom": "Jean",
+      "type": "titulaire",
+      "estFonctionnaire": true,
+      "statut": "Professeur",
+      "poste": "Responsable du département informatique",
+      "id": "1"
+    },
+    {
+      "matricule": "ENS002",
+      "nom": "Durand",
+      "prenom": "Marie",
+      "type": "vacataire",
+      "estFonctionnaire": false,
+      "statut": "Maître de conférences",
+      "periode": "2024-09-01 - 2025-06-30",
+      "id": "2"
+    },
+    {
+      "matricule": "ENS003",
+      "nom": "Martin",
+      "prenom": "Pierre",
+      "type": "titulaire",
+      "estFonctionnaire": true,
+      "statut": "Professeur",
+      "poste": "Chargé de recherche",
+      "id": "3"
+    },
+    {
+      "id": "8926",
+      "matricule": "nhbh",
+      "nom": "drtt",
+      "prenom": "p",
+      "type": "vacataire",
+      "estFonctionnaire": true,
+      "statut": "Actif",
+      "periode": "90u77",
+      "poste": ""
+    },
+    {
+      "id": "d455",
+      "matricule": "xdhhh",
+      "nom": "df",
+      "prenom": "df",
+      "type": "titulaire",
+      "estFonctionnaire": true,
+      "statut": "Actif",
+      "periode": "",
+      "poste": "cc"
+    },
+    {
+      "id": "a16a",
+      "matricule": "jhb",
+      "nom": "lolo",
+      "prenom": "xsxs",
+      "type": "titulaire",
+      "estFonctionnaire": true,
+      "statut": "Actif",
+      "periode": "",
+      "poste": "vv"
+    },
+    {
+      "id": "4b27",
+      "matricule": "ENS004",
+      "nom": "diagne",
+      "prenom": "serigne",
+      "type": "titulaire",
+      "estFonctionnaire": true,
+      "statut": "Actif",
+      "periode": "",
+      "poste": "enseignant-chercheur"
+    },
+    {
+      "id": "94be",
+      "matricule": "ee",
+      "nom": "ss",
+      "prenom": "dd",
+      "type": "vacataire",
+      "estFonctionnaire": false,
+      "statut": "Actif",
+      "periode": "",
+      "poste": ""
+    }
+  ],
+  "annees": [
+    {
+      "id": "1",
+      "libelle": "Année Scolaire 2021-2022",
+      "dateDebut": "2021-04-26",
+      "dateFin": "2022-04-16"
+    },
+    {
+      "id": "2",
+      "libelle": "Année Scolaire 2022-2023",
+      "dateDebut": "2022-04-20",
+      "dateFin": "2023-06-30"
+    },
+    {
+      "id": "3",
+      "libelle": "Année Scolaire 2023-2024",
+      "dateDebut": "2023-03-03",
+      "dateFin": "2024-04-30"
+    },
+    {
+      "id": "c55e",
+      "libelle": "",
+      "dateDebut": "2024-05-05T23:11:21.177Z",
+      "dateFin": "2024-05-05T23:11:21.177Z"
+    }
+  ],
+  "formation": [
+    {
+      "id": "1",
+      "code": "MAT202",
+      "grade": "Master2",
+      "libelle": "Mathématiques",
+      "mention": "Analyse mathématique",
+      "specialite": "Algèbre2",
+      "estValide": true,
+      "niveau": [
+        {
+          "id": 1,
+          "numero": 1
+        },
+        {
+          "id": 2,
+          "numero": 2
+        },
+        {
+          "id": 3,
+          "numero": 3
+        }
+      ],
+      "parcours": [
+        {
+          "id": 1,
+          "libelle": "Parcours recherche",
+          "type": ""
+        }
+      ],
+      "semestre": [
+        {
+          "id": 1,
+          "numero": 2,
+          "dateDebut": "2021-09-01",
+          "dateFin": "2022-06-30"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "code": "MAT201",
+      "grade": "Master",
+      "libelle": "Mathématiques",
+      "mention": "Analyse mathématique",
+      "specialite": "Algèbre",
+      "estValide": true,
+      "niveau": [
+        {
+          "id": 1,
+          "numero": 1
+        },
+        {
+          "id": 2,
+          "numero": 2
+        },
+        {
+          "id": 3,
+          "numero": 3
+        }
+      ],
+      "parcours": [
+        {
+          "id": 2,
+          "libelle": "Parcours recherche",
+          "type": ""
+        }
+      ],
+      "semestre": [
+        {
+          "id": 2,
+          "numero": 2,
+          "dateDebut": "2021-09-01",
+          "dateFin": "2022-06-30"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "code": "PHY301",
+      "grade": "Doctorat",
+      "libelle": "Physique",
+      "mention": "Physique des particules",
+      "specialite": "Physique théorique",
+      "estValide": true,
+      "niveau": [
+        {
+          "id": 1,
+          "numero": 1
+        },
+        {
+          "id": 2,
+          "numero": 2
+        },
+        {
+          "id": 3,
+          "numero": 3
+        }
+      ],
+      "parcours": [
+        {
+          "id": 3,
+          "libelle": "Parcours professionnel",
+          "type": ""
+        }
+      ],
+      "semestre": [
+        {
+          "id": 3,
+          "numero": 3,
+          "dateDebut": "2021-11-15",
+          "dateFin": "2022-05-31"
+        }
+      ]
+    },
+    {
+      "id": "a3d7",
+      "code": "dxdx",
+      "grade": "dc",
+      "libelle": "r",
+      "mention": "g",
+      "specialite": "bg",
+      "estValide": "vv"
+    }
+  ],
+  "contrats": [
+    {
+      "dateCommencement": "2022-06-15",
+      "duree": 4,
+      "signatureEnseignant": "2022-01-01",
+      "signatureResponsable": "2022-02-03",
+      "cours": "4",
+      "enseignant": "3",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "dateStage": "2024-07-01",
+      "dateCommencement": "2024-07-15",
+      "duree": 2,
+      "signatureEnseignant": "",
+      "signatureResponsable": "",
+      "cours": 3,
+      "enseignant": 3
+    },
+    {
+      "dateCommencement": "15-01-2024",
+      "duree": 4,
+      "signatureEnseignant": "",
+      "signatureResponsable": "16-03-2014",
+      "enseignant": "4b27",
+      "id": "283e"
+    },
+    {
+      "id": "7c3e",
+      "dateExcecution": "2021-02-12",
+      "dateCommencement": "2021-02-03",
+      "duree": 4,
+      "signatureEnseignant": "2021-09-03",
+      "signatureResponsable": "2021-14-10",
+      "cours": "2",
+      "enseignant": "3"
+    },
+    {
+      "dateExcecution": "2021-16-09",
+      "dateCommencement": "2021-04-04",
+      "duree": 12,
+      "signatureEnseignant": "2021-01-01",
+      "signatureResponsable": "2021-12-11",
+      "cours": "1",
+      "id": "8655"
+    },
+    {
+      "id": "9844",
+      "dateExcecution": "2024-05-10",
+      "dateCommencement": "2024-05-17",
+      "duree": 14,
+      "signatureEnseignant": "2024-05-12",
+      "signatureResponsable": "2024-05-17",
+      "cours": "3",
+      "enseignant": "a16a"
+    },
+    {
+      "id": "7e2a",
+      "dateExcecution": "2024-05-12",
+      "dateCommencement": "2024-05-18",
+      "duree": "6",
+      "signatureEnseignant": "2024-05-24",
+      "signatureResponsable": "2024-05-29",
+      "cours": "2",
+      "enseignant": "8926"
+    },
+    {
+      "dateExcecution": "2025-06-12",
+      "dateCommencement": "2025-10-24",
+      "duree": "8",
+      "signatureEnseignant": "2025-05-28",
+      "signatureResponsable": "2025-05-07",
+      "cours": "f79f",
+      "id": "8aaf"
+    }
+  ],
+  "cours": [
+    {
+      "id": "1",
+      "libelle": "Introduction à l'informatique",
+      "volumeHoraire": 30,
+      "estPresentiel": true,
+      "ues": [
+        {
+          "id": 1,
+          "libelle": "Fondements de l'informatique",
+          "code": "INFO101",
+          "base": 3
+        }
+      ],
+      "ecs": [
+        {
+          "id": 1,
+          "code": "INF101",
+          "libelle": "Algorithmique et programmation",
+          "estObligatoire": true,
+          "coefficient": 2,
+          "base": 1,
+          "formuleCalcul": "coef * base",
+          "champinconnuMaquette": "XXXXX"
+        },
+        {
+          "id": 2,
+          "code": "INF102",
+          "libelle": "Structures de données",
+          "estObligatoire": true,
+          "coefficient": 3,
+          "base": 1,
+          "formuleCalcul": "coef * base",
+          "champinconnuMaquette": "XXXXX"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "libelle": "Anglais avancé",
+      "volumeHoraire": 20,
+      "estPresentiel": false,
+      "ues": [
+        {
+          "id": 2,
+          "libelle": "Langues étrangères",
+          "code": "LANG101",
+          "base": 2.5
+        }
+      ],
+      "ecs": [
+        {
+          "id": 3,
+          "code": "ANG101",
+          "libelle": "Conversation avancée",
+          "estObligatoire": true,
+          "coefficient": 2,
+          "base": 1,
+          "formuleCalcul": "coef * base",
+          "champinconnuMaquette": "XXXXX"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "libelle": "Introduction à la gestion",
+      "volumeHoraire": 25,
+      "estPresentiel": true,
+      "ues": [
+        {
+          "id": 3,
+          "libelle": "Sciences de gestion",
+          "code": "GEST101",
+          "base": 2
+        }
+      ],
+      "ecs": []
+    },
+    {
+      "id": "4",
+      "libelle": "Introduction à la physique",
+      "volumeHoraire": 35,
+      "estPresentiel": true,
+      "ues": [
+        {
+          "id": 4,
+          "libelle": "Fondements de la physique",
+          "code": "PHYS101",
+          "base": 3.5
+        }
+      ],
+      "ecs": [
+        {
+          "id": 4,
+          "code": "PHY101",
+          "libelle": "Mécanique classique",
+          "estObligatoire": true,
+          "coefficient": 3,
+          "base": 1,
+          "formuleCalcul": "coef * base",
+          "champinconnuMaquette": "XXXXX"
+        },
+        {
+          "id": 5,
+          "code": "PHY102",
+          "libelle": "Électromagnétisme",
+          "estObligatoire": true,
+          "coefficient": 3,
+          "base": 1,
+          "formuleCalcul": "coef * base",
+          "champinconnuMaquette": "XXXXX"
+        }
+      ]
+    },
+    {
+      "id": "f79f",
+      "libelle": "hijkjk",
+      "volumeHoraire": "6",
+      "estPresentiel": "jj"
+    }
+  ],
+  "responsable": [
+    {
+      "id": "1",
+      "nom": "Guerane Tine"
+    }
+  ],
+  "superviseur": [
+    {
+      "id": "1",
+      "nom": "Guerane Tine",
+      "dateCreation": "2024-03-24",
+      "dateModification": "2024-04-21"
+    }
+  ],
+  "ufr": [
+    {
+      "id": "1",
+      "libelle": "UFR 1",
+      "abreviation": "UFR1",
+      "email": "ufr1@example.com",
+      "type": "Type 1",
+      "dateCreation": "2024-01-01",
+      "arreteCreation": "Arrete 1",
+      "departements": [
+        {
+          "id": 1,
+          "libelle": "Département d'Informatique",
+          "abreviation": "INFO",
+          "email": "info@example.com",
+          "type": "Département",
+          "dateCreation": "2021-10-15",
+          "arreteCreation": "AR-001"
+        },
+        {
+          "id": 2,
+          "libelle": "Département de Mathématiques",
+          "abreviation": "MATH",
+          "email": "math@example.com",
+          "type": "Département",
+          "dateCreation": "2021-09-20",
+          "arreteCreation": "AR-002"
+        },
+        {
+          "id": 3,
+          "libelle": "Département de Physique",
+          "abreviation": "PHYS",
+          "email": "physique@example.com",
+          "type": "Département",
+          "dateCreation": "2021-11-05",
+          "arreteCreation": "AR-003"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "libelle": "UFR 2",
+      "abreviation": "UFR2",
+      "email": "ufr2@example.com",
+      "type": "Type 2",
+      "dateCreation": "2024-01-02",
+      "arreteCreation": "Arrete 2"
+    },
+    {
+      "id": "4",
+      "libelle": "UFR 4",
+      "abreviation": "UFR4",
+      "email": "ufr4@example.com",
+      "type": "Type 4",
+      "dateCreation": "2024-01-04",
+      "arreteCreation": "Arrete 4"
+    },
+    {
+      "id": "5",
+      "libelle": "UFR 5",
+      "abreviation": "UFR5",
+      "email": "ufr5@example.com",
+      "type": "Type 5",
+      "dateCreation": "2024-01-05",
+      "arreteCreation": "Arrete 5"
+    }
+  ]
+}

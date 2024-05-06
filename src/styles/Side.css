@@ -1,0 +1,67 @@
+*{
+    margin: 5;
+    padding: 5;
+    text-decoration: none;
+  }
+  .container{
+    display: flex;
+  }
+  .main {
+    transition: margin-left 0.5s;
+    margin-left: 30px; 
+  }
+  .sidebar{
+    background-color: #ffffff;
+    height: 165vh;
+    width: 300px;
+    color: #141212;
+    transition: all 0.5s;
+  
+  }
+  .top_section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .bars{
+    display: flex;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .link{
+    display: flex;
+    color: #141212;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background: #0fc73d;
+    color: #141212;
+    transition: all 0.5s;
+  }
+  
+  .icon,.link_text{
+    font-size: 20px;
+  }
+  
+  .icon {
+    transition: transform 0.3s;
+  }
+  
+  .link:hover .icon {
+    transform: scale(1.2); 
+  }
+  
+  
+  .link.active .link_text {
+    color: #141212; /* Modifier la couleur de l'icône et du texte */
+  }
+ 
+  .link_text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Remplacez 'VotrePolice' par le nom de la police que vous souhaitez utiliser */
+}

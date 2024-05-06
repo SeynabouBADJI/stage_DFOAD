@@ -1,0 +1,33 @@
+.header {
+    background-color: #228B22;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00ff4c9d;
+  }
+  .nav-link {
+    color: #fff; /* Couleur de texte par défaut */
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    transition: color 1s; /* Animation de transition de couleur */
+  }
+  
+  .nav-link:hover {
+    color: #302b2b; /* Nouvelle couleur au survol */
+  }
+  

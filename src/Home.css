@@ -1,0 +1,37 @@
+.home-container {
+    font-family: 'Roboto', sans-serif; /* Utilisez une police lisible */
+    color: #333; /* Couleur de texte principale */
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #39993a; /* Couleur du titre */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    margin-left: 60px;
+  }
+  
+  
+  
+  .main-content {
+    width: 70%;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10 10 80px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  

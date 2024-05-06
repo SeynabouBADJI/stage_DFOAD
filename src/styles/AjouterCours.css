@@ -1,0 +1,18 @@
+/* Ajoutez ces styles à votre fichier de styles CSS */
+.boutonVert {
+    background-color: #156d25; /* Couleur verte */
+    color: #ffffff; /* Texte blanc */
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+  Button {
+    padding-bottom: 1%;
+  }
+  
+  /* Ajoutez ces styles pour centrer le bouton */
+  .container {
+    text-align: center;
+    padding: 0px; 
+    margin: 0px;
+ }
+  

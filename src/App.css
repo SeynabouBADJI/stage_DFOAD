@@ -1,0 +1,27 @@
+
+/* le logo en rotation */
+/* .logo{
+  border-radius: 50%;
+  animation: logo-sprin  infinite 20s linear;
+}
+
+@keyframes logo-sprin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  width: 1000px; /* Taille fixe souhaitée */
+  margin: 0 auto; /* Centrage horizontale */
+}
+
+

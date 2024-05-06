@@ -1,0 +1,26 @@
+.add-button {
+  position: absolute;
+  top: 27%; /* Placer l'icône en haut du conteneur */
+  left: 50%;
+  transform: translate(-50%, 0); /* Centrer horizontalement */
+}
+
+.add-button button {
+  width: 60px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button button:hover {
+  background-color: #45a049;
+}
+
+.add-button button .MuiSvgIcon-root {
+  font-size: 24px;
+  margin-top: 12px; /* Ajuster la marge supérieure pour centrer l'icône verticalement */
+}

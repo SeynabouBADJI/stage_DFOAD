@@ -1,0 +1,38 @@
+/* calendar.css */
+
+.calendar-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    max-height: 400px;
+  }
+  
+  .event-input,
+  .date-input {
+    margin-right: 10px;
+  }
+  
+  .add-button {
+    background-color: #28a745; /* Vert */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #39993a; /* Vert légèrement plus foncé au survol */
+  }
+  
+  .calendar {
+    margin-top: 20px;
+  }
+  
+  .custom-day-cell {
+    width: 10px; /* Ajustez la largeur selon vos préférences */
+    height: 1px; /* Ajustez la hauteur selon vos préférences */
+    font-size: 14px; /* Ajustez la taille de la police selon vos préférences */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
